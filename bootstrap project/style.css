@@ -1,0 +1,56 @@
+:root {
+  --red: #dc3545;
+}
+.navbar {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.nav-link {
+  color: black;
+  transition: all 0.5s;
+}
+.nav-link:hover {
+  color: var(--red);
+}
+.navbar img {
+  width: 200px;
+}
+.carousel-item h5 {
+  color: var(--red);
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 2px black;
+}
+.carousel-item p {
+  text-shadow: 2px 2px 2px black;
+  font-weight: 600;
+}
+.carousel-item .btn {
+  width: 6rem;
+  margin-bottom: 1rem;
+}
+.carousel-item {
+  max-height: calc(100vh - 88px);
+}
+.bi {
+  font-size: 2rem;
+}
+
+footer i {
+  font-size: 2rem;
+  color: white;
+  margin: 0.2rem;
+}
+.up-btn {
+  color: white;
+  background-color: var(--red);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}

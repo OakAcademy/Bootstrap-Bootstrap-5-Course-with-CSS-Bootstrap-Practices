@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <!-- !Dropdown -->
+      <!-- <div class="btn-group dropend" style="margin-top: 200px">
+        <button type="button" class="btn btn-info">Dropdown</button>
+        <button
+          type="button"
+          class="btn btn-info dropdown-toggle dropdown-toggle-split"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        ></button>
+        <ul class="dropdown-menu dropdown-menu-dark">
+          <li><a class="dropdown-item" href="#">Home</a></li>
+          <li><a class="dropdown-item" href="#">About</a></li>
+          <li><a class="dropdown-item" href="#">Services</a></li>
+          <li>
+            <hr class="dropdown-divider" />
+          </li>
+          <li><a class="dropdown-item" href="#">Contact</a></li>
+        </ul>
+      </div> -->
+      <!-- !Modal -->
+      <!-- <button
+        class="btn btn-dark"
+        type="button"
+        data-bs-toggle="modal"
+        data-bs-target="#myModal"
+      >
+        Open/Close
+      </button>
+      <div class="modal fade" tabindex="-1" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title">Header</h2>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-danger"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button class="btn btn-success" type="button">Confirm</button>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!-- !Carousel -->
+      <!-- <div
+        class="carousel slide carousel-fade"
+        id="mySlide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            class="active"
+            type="button"
+            data-bs-target="#mySlide"
+            data-bs-slide-to="0"
+            aria-current="true"
+            aria-label="First Slide"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#mySlide"
+            data-bs-slide-to="1"
+            aria-label="Second Slide"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#mySlide"
+            data-bs-slide-to="2"
+            aria-label="Third Slide"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/batman1.jpg" alt="batman1" class="d-block w-100" />
+            <div class="carousel-caption">
+              <h3>First Slide</h3>
+              <p>Lorem ipsum dolor sit.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/batman2.jpg" alt="batman2" class="d-block w-100" />
+            <div class="carousel-caption">
+              <h3>Second Slide</h3>
+              <p>Lorem ipsum dolor sit.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/joker.jpg"
+              alt="joker"
+              class="d-block w-100"
+              style="height: 285px"
+            />
+          </div>
+        </div>
+        <button
+          type="button"
+          class="carousel-control-prev"
+          data-bs-target="#mySlide"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Prev</span>
+        </button>
+        <button
+          type="button"
+          class="carousel-control-next"
+          data-bs-target="#mySlide"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> -->
+      <!-- !Collapse and Accordion -->
+      <!-- <a
+        href="#collapseId"
+        role="button"
+        class="btn btn-info"
+        data-bs-toggle="collapse"
+        aria-expanded="false"
+        aria-controls="collapseId"
+        >Collapse</a
+      >
+      <button
+        data-bs-target="#collapseId"
+        class="btn btn-danger"
+        data-bs-toggle="collapse"
+        aria-expanded="false"
+        aria-controls="collapseId"
+      >
+        Collapse
+      </button>
+      <div class="collapse border border-info p-2 mt-3" id="collapseId">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          inventore dolore et consequuntur ducimus excepturi. Dolore,
+          consequuntur. Fugit, sed cupiditate.
+        </p>
+      </div> -->
+      <div class="accordion accordion-flush" id="accordionId">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="accordionOne">
+            <button
+              type="button"
+              data-bs-target="#one"
+              class="accordion-button"
+              data-bs-toggle="collapse"
+              aria-expanded="true"
+              aria-controls="one"
+            >
+              Accordion 1
+            </button>
+          </h2>
+          <div
+            id="one"
+            aria-labelledby="accordionOne"
+            data-bs-parent="#accordionId"
+            class="accordion-collapce collapse show"
+          >
+            <div class="accordion-body">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Laboriosam, fugiat quos voluptatibus id fugit molestias nobis.
+                Culpa ex quasi eius cum eaque, eos consectetur quos maxime
+                nulla? Excepturi quam, eius laborum consequuntur eligendi
+                asperiores quae, culpa consequatur sapiente vitae
+                necessitatibus!
+              </p>
+            </div>
+          </div>
+
+          <h2 class="accordion-header" id="accordionTwo">
+            <button
+              type="button"
+              data-bs-target="#two"
+              class="accordion-button"
+              data-bs-toggle="collapse"
+              aria-expanded="false"
+              aria-controls="two"
+            >
+              Accordion 2
+            </button>
+          </h2>
+          <div
+            id="two"
+            aria-labelledby="accordionTwo"
+            data-bs-parent="#accordionId"
+            class="accordion-collapce collapse"
+          >
+            <div class="accordion-body">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Laboriosam, fugiat quos voluptatibus id fugit molestias nobis.
+                Culpa ex quasi eius cum eaque, eos consectetur quos maxime
+                nulla? Excepturi quam, eius laborum consequuntur eligendi
+                asperiores quae, culpa consequatur sapiente vitae
+                necessitatibus!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script>
+      const myId = document.querySelector("#myModal");
+      const myModal = new bootstrap.Modal(myId);
+      myModal.show();
+    </script> -->
+  </body>
+</html>
